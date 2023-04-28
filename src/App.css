@@ -11,7 +11,150 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+}
+
+.navbar {
+  margin: 0 4%;
+}
+
+.navtouch {
+  cursor: pointer;
+}
+
+.header {
+  background-color: white;
+  font-weight: 600;
+  height: 80px;
+}
+
+.applogo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.home_container {
+  background-color: rgb(0, 131, 143);
+}
+
+input {
+  margin: 3.5% 3.5%;
+  width: 55%;
+  height: 50px;
+  border: none;
+  border-radius: 55px;
+  font-size: 1.3rem;
+  color: wheat;
+  background-color: rgb(0, 184, 212);
+  outline: none;
+  align-items: center;
+  text-align: center;
+}
+
+input::placeholder {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.coins_container {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.coins_container a {
+  text-decoration: none;
+}
+
+.coins {
+  justify-content: space-around;
+  width: 100%;
+  height: 102%;
+  background-color: rgb(2, 105, 108);
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+}
+
+.coins:hover {
+  transform: scale(1.05);
+  color: burlywood;
+}
+
+.coinimg {
+  width: 60%;
+}
+
+.coin-up {
+  color: rgb(147, 228, 147);
+}
+
+.coin-down {
+  color: rgb(234, 99, 99);
+}
+
+.detailimg {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 4%;
+}
+
+.alllist {
+  width: 90%;
+  margin: auto;
+  color: rgb(228, 225, 225);
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid rgb(103, 162, 154);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.list {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: contents;
+  border-radius: 10px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item:nth-child(even) {
+  background-color: rgb(101, 181, 170);
+}
+
+.descr {
+  text-align: left;
+  color: rgb(228, 225, 225);
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .coins_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coins {
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+  }
+
+  .coinimg {
+    width: 100%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
