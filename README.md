@@ -19,7 +19,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo] & 💻 Video Presentation(#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -84,11 +84,13 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & 💻 Video Presentation <a name="live-demo"></a>
 
 
 
-- [Live Demo Link](https://react-reduxtoolkit-capston.onrender.com)
+- [Live Demo Link](https://cryptoapp2023.netlify.app/)
+
+- [Video Presentation](https://www.loom.com/share/598bdd648d974f1dbc06706cd808ec34)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +166,9 @@ You can deploy this project using:
 
 
 
-- [ Redux new features] **[New adons of react and redux if any]**
+- Redux new features
+- Add Login page
+- Add gradient background that will change randomly
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
