@@ -41,11 +41,9 @@ const Home = () => {
                 <div>
                   <p>{coin.name}</p>
                   <p>{coin.currentPrice}</p>
-
-                  <p>{coin.current_price}</p>
-                  {coin.price_change_percentage_24h > 0 ? (
-                    <p className="coin-up">{coin.price_change_percentage_24h}</p>
-                  ) : (<p className="coin-down">{coin.price_change_percentage_24h}</p>)}
+                  {coin.priceChangePercentage24h > 0 ? (
+                    <p className="coin-up">{coin.priceChangePercentage24h}</p>
+                  ) : (<p className="coin-down">{coin.priceChangePercentage24h}</p>)}
 
                   <p><FontAwesomeIcon icon={faArrowRight} className="arrow-right" /></p>
 
