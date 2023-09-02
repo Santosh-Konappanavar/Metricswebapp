@@ -18,7 +18,7 @@ function Header() {
         </div>
         <div>
           <p className="flex">
-            <img src="http://cryptoicons.co/images/coin_icon@2x.png" alt="applogo" className="applogo" />
+            <img src="http://cryptoicons.co/images/coin_icon@2x.png" className="applogo" />
             <span>CRYPTOIST</span>
           </p>
         </div>
